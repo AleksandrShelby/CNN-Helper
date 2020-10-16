@@ -524,4 +524,7 @@ function imgui.OnDrawFrame()
 				sampSendChat("Правильный ответ: Проходит набор в БК Ацтек. Ждём на районе")
 		end
 	end
+	if imgui.Button(u8"Проверка") then
+				sampAddChatMessage(u8"Проверка", -1)
+		end
 end
